@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CA55C799EA8AC2A187ACAB2 /* Pods_FolledoInstagramClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AA835DB9FD7F4F621A06D3 /* Pods_FolledoInstagramClone.framework */; };
+		CD16636220C5F4F800284A43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16636120C5F4F800284A43 /* AppDelegate.swift */; };
+		CD16636420C5F4F800284A43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16636320C5F4F800284A43 /* ViewController.swift */; };
+		CD16636720C5F4F800284A43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD16636520C5F4F800284A43 /* Main.storyboard */; };
+		CD16636A20C5F4F800284A43 /* FolledoInstagramClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD16636820C5F4F800284A43 /* FolledoInstagramClone.xcdatamodeld */; };
+		CD16636C20C5F4FB00284A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD16636B20C5F4FB00284A43 /* Assets.xcassets */; };
+		CD16636F20C5F4FB00284A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD16636D20C5F4FB00284A43 /* LaunchScreen.storyboard */; };
+		CD16637A20C5F4FB00284A43 /* FolledoInstagramCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16637920C5F4FB00284A43 /* FolledoInstagramCloneTests.swift */; };
+		CD16638520C5F4FB00284A43 /* FolledoInstagramCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16638420C5F4FB00284A43 /* FolledoInstagramCloneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD16637620C5F4FB00284A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD16635620C5F4F800284A43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD16635D20C5F4F800284A43;
+			remoteInfo = FolledoInstagramClone;
+		};
+		CD16638120C5F4FB00284A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD16635620C5F4F800284A43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD16635D20C5F4F800284A43;
+			remoteInfo = FolledoInstagramClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A1F696BC2A843F86C8FC1FC /* Pods-FolledoInstagramClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolledoInstagramClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FolledoInstagramClone/Pods-FolledoInstagramClone.debug.xcconfig"; sourceTree = "<group>"; };
+		87AA835DB9FD7F4F621A06D3 /* Pods_FolledoInstagramClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FolledoInstagramClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55572D7DFCDC26CE13837D4 /* Pods-FolledoInstagramClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolledoInstagramClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-FolledoInstagramClone/Pods-FolledoInstagramClone.release.xcconfig"; sourceTree = "<group>"; };
+		CD16635E20C5F4F800284A43 /* FolledoInstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolledoInstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD16636120C5F4F800284A43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD16636320C5F4F800284A43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD16636620C5F4F800284A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD16636920C5F4F800284A43 /* FolledoInstagramClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FolledoInstagramClone.xcdatamodel; sourceTree = "<group>"; };
+		CD16636B20C5F4FB00284A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD16636E20C5F4FB00284A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD16637020C5F4FB00284A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD16637520C5F4FB00284A43 /* FolledoInstagramCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolledoInstagramCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD16637920C5F4FB00284A43 /* FolledoInstagramCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolledoInstagramCloneTests.swift; sourceTree = "<group>"; };
+		CD16637B20C5F4FB00284A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD16638020C5F4FB00284A43 /* FolledoInstagramCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolledoInstagramCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD16638420C5F4FB00284A43 /* FolledoInstagramCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolledoInstagramCloneUITests.swift; sourceTree = "<group>"; };
+		CD16638620C5F4FB00284A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD16635B20C5F4F800284A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA55C799EA8AC2A187ACAB2 /* Pods_FolledoInstagramClone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD16637220C5F4FB00284A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD16637D20C5F4FB00284A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70646225DFC1A3BDFB181E2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A1F696BC2A843F86C8FC1FC /* Pods-FolledoInstagramClone.debug.xcconfig */,
+				B55572D7DFCDC26CE13837D4 /* Pods-FolledoInstagramClone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD16635520C5F4F800284A43 = {
+			isa = PBXGroup;
+			children = (
+				CD16636020C5F4F800284A43 /* FolledoInstagramClone */,
+				CD16637820C5F4FB00284A43 /* FolledoInstagramCloneTests */,
+				CD16638320C5F4FB00284A43 /* FolledoInstagramCloneUITests */,
+				CD16635F20C5F4F800284A43 /* Products */,
+				70646225DFC1A3BDFB181E2D /* Pods */,
+				ECF177519AF3E258589C6BDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD16635F20C5F4F800284A43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD16635E20C5F4F800284A43 /* FolledoInstagramClone.app */,
+				CD16637520C5F4FB00284A43 /* FolledoInstagramCloneTests.xctest */,
+				CD16638020C5F4FB00284A43 /* FolledoInstagramCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD16636020C5F4F800284A43 /* FolledoInstagramClone */ = {
+			isa = PBXGroup;
+			children = (
+				CD16636120C5F4F800284A43 /* AppDelegate.swift */,
+				CD16636320C5F4F800284A43 /* ViewController.swift */,
+				CD16636520C5F4F800284A43 /* Main.storyboard */,
+				CD16636B20C5F4FB00284A43 /* Assets.xcassets */,
+				CD16636D20C5F4FB00284A43 /* LaunchScreen.storyboard */,
+				CD16637020C5F4FB00284A43 /* Info.plist */,
+				CD16636820C5F4F800284A43 /* FolledoInstagramClone.xcdatamodeld */,
+			);
+			path = FolledoInstagramClone;
+			sourceTree = "<group>";
+		};
+		CD16637820C5F4FB00284A43 /* FolledoInstagramCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD16637920C5F4FB00284A43 /* FolledoInstagramCloneTests.swift */,
+				CD16637B20C5F4FB00284A43 /* Info.plist */,
+			);
+			path = FolledoInstagramCloneTests;
+			sourceTree = "<group>";
+		};
+		CD16638320C5F4FB00284A43 /* FolledoInstagramCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD16638420C5F4FB00284A43 /* FolledoInstagramCloneUITests.swift */,
+				CD16638620C5F4FB00284A43 /* Info.plist */,
+			);
+			path = FolledoInstagramCloneUITests;
+			sourceTree = "<group>";
+		};
+		ECF177519AF3E258589C6BDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87AA835DB9FD7F4F621A06D3 /* Pods_FolledoInstagramClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD16635D20C5F4F800284A43 /* FolledoInstagramClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD16638920C5F4FB00284A43 /* Build configuration list for PBXNativeTarget "FolledoInstagramClone" */;
+			buildPhases = (
+				403035DEB84DD5E95CD9AE0F /* [CP] Check Pods Manifest.lock */,
+				CD16635A20C5F4F800284A43 /* Sources */,
+				CD16635B20C5F4F800284A43 /* Frameworks */,
+				CD16635C20C5F4F800284A43 /* Resources */,
+				277548C49E9A14CF2953710A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FolledoInstagramClone;
+			productName = FolledoInstagramClone;
+			productReference = CD16635E20C5F4F800284A43 /* FolledoInstagramClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD16637420C5F4FB00284A43 /* FolledoInstagramCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD16638C20C5F4FB00284A43 /* Build configuration list for PBXNativeTarget "FolledoInstagramCloneTests" */;
+			buildPhases = (
+				CD16637120C5F4FB00284A43 /* Sources */,
+				CD16637220C5F4FB00284A43 /* Frameworks */,
+				CD16637320C5F4FB00284A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD16637720C5F4FB00284A43 /* PBXTargetDependency */,
+			);
+			name = FolledoInstagramCloneTests;
+			productName = FolledoInstagramCloneTests;
+			productReference = CD16637520C5F4FB00284A43 /* FolledoInstagramCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD16637F20C5F4FB00284A43 /* FolledoInstagramCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD16638F20C5F4FB00284A43 /* Build configuration list for PBXNativeTarget "FolledoInstagramCloneUITests" */;
+			buildPhases = (
+				CD16637C20C5F4FB00284A43 /* Sources */,
+				CD16637D20C5F4FB00284A43 /* Frameworks */,
+				CD16637E20C5F4FB00284A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD16638220C5F4FB00284A43 /* PBXTargetDependency */,
+			);
+			name = FolledoInstagramCloneUITests;
+			productName = FolledoInstagramCloneUITests;
+			productReference = CD16638020C5F4FB00284A43 /* FolledoInstagramCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD16635620C5F4F800284A43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Samuel Folledo";
+				TargetAttributes = {
+					CD16635D20C5F4F800284A43 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					CD16637420C5F4FB00284A43 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CD16635D20C5F4F800284A43;
+					};
+					CD16637F20C5F4FB00284A43 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CD16635D20C5F4F800284A43;
+					};
+				};
+			};
+			buildConfigurationList = CD16635920C5F4F800284A43 /* Build configuration list for PBXProject "FolledoInstagramClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD16635520C5F4F800284A43;
+			productRefGroup = CD16635F20C5F4F800284A43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD16635D20C5F4F800284A43 /* FolledoInstagramClone */,
+				CD16637420C5F4FB00284A43 /* FolledoInstagramCloneTests */,
+				CD16637F20C5F4FB00284A43 /* FolledoInstagramCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD16635C20C5F4F800284A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD16636F20C5F4FB00284A43 /* LaunchScreen.storyboard in Resources */,
+				CD16636C20C5F4FB00284A43 /* Assets.xcassets in Resources */,
+				CD16636720C5F4F800284A43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD16637320C5F4FB00284A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD16637E20C5F4FB00284A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		277548C49E9A14CF2953710A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FolledoInstagramClone/Pods-FolledoInstagramClone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FolledoInstagramClone/Pods-FolledoInstagramClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		403035DEB84DD5E95CD9AE0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FolledoInstagramClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD16635A20C5F4F800284A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD16636420C5F4F800284A43 /* ViewController.swift in Sources */,
+				CD16636A20C5F4F800284A43 /* FolledoInstagramClone.xcdatamodeld in Sources */,
+				CD16636220C5F4F800284A43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD16637120C5F4FB00284A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD16637A20C5F4FB00284A43 /* FolledoInstagramCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD16637C20C5F4FB00284A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD16638520C5F4FB00284A43 /* FolledoInstagramCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD16637720C5F4FB00284A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD16635D20C5F4F800284A43 /* FolledoInstagramClone */;
+			targetProxy = CD16637620C5F4FB00284A43 /* PBXContainerItemProxy */;
+		};
+		CD16638220C5F4FB00284A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD16635D20C5F4F800284A43 /* FolledoInstagramClone */;
+			targetProxy = CD16638120C5F4FB00284A43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD16636520C5F4F800284A43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD16636620C5F4F800284A43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD16636D20C5F4FB00284A43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD16636E20C5F4FB00284A43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD16638720C5F4FB00284A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD16638820C5F4FB00284A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD16638A20C5F4FB00284A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1F696BC2A843F86C8FC1FC /* Pods-FolledoInstagramClone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KSKUH7X29;
+				INFOPLIST_FILE = FolledoInstagramClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FolledoSwag.FolledoInstagramClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD16638B20C5F4FB00284A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55572D7DFCDC26CE13837D4 /* Pods-FolledoInstagramClone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KSKUH7X29;
+				INFOPLIST_FILE = FolledoInstagramClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FolledoSwag.FolledoInstagramClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD16638D20C5F4FB00284A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KSKUH7X29;
+				INFOPLIST_FILE = FolledoInstagramCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FolledoSwag.FolledoInstagramCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FolledoInstagramClone.app/FolledoInstagramClone";
+			};
+			name = Debug;
+		};
+		CD16638E20C5F4FB00284A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KSKUH7X29;
+				INFOPLIST_FILE = FolledoInstagramCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FolledoSwag.FolledoInstagramCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FolledoInstagramClone.app/FolledoInstagramClone";
+			};
+			name = Release;
+		};
+		CD16639020C5F4FB00284A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KSKUH7X29;
+				INFOPLIST_FILE = FolledoInstagramCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FolledoSwag.FolledoInstagramCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FolledoInstagramClone;
+			};
+			name = Debug;
+		};
+		CD16639120C5F4FB00284A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KSKUH7X29;
+				INFOPLIST_FILE = FolledoInstagramCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FolledoSwag.FolledoInstagramCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FolledoInstagramClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD16635920C5F4F800284A43 /* Build configuration list for PBXProject "FolledoInstagramClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD16638720C5F4FB00284A43 /* Debug */,
+				CD16638820C5F4FB00284A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD16638920C5F4FB00284A43 /* Build configuration list for PBXNativeTarget "FolledoInstagramClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD16638A20C5F4FB00284A43 /* Debug */,
+				CD16638B20C5F4FB00284A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD16638C20C5F4FB00284A43 /* Build configuration list for PBXNativeTarget "FolledoInstagramCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD16638D20C5F4FB00284A43 /* Debug */,
+				CD16638E20C5F4FB00284A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD16638F20C5F4FB00284A43 /* Build configuration list for PBXNativeTarget "FolledoInstagramCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD16639020C5F4FB00284A43 /* Debug */,
+				CD16639120C5F4FB00284A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD16636820C5F4F800284A43 /* FolledoInstagramClone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD16636920C5F4F800284A43 /* FolledoInstagramClone.xcdatamodel */,
+			);
+			currentVersion = CD16636920C5F4F800284A43 /* FolledoInstagramClone.xcdatamodel */;
+			path = FolledoInstagramClone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD16635620C5F4F800284A43 /* Project object */;
+}
