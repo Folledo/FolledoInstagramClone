@@ -6,6 +6,16 @@
 //  Copyright © 2018 Samuel Folledo. All rights reserved.
 //
 
+//1 Parse Server & AWS
+//2 Retrieving & Updating Data
+//3 Accessing the Camera Roll
+//4 Spinners & Alerts
+//5 Login & Signup
+//6 User Table
+//7 Pull to Refresh
+//8 Posting Images
+//9 Viewing User's Feeds
+
 import Foundation
 import UIKit
 import Parse
