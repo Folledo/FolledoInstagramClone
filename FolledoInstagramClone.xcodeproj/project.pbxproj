@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5CA55C799EA8AC2A187ACAB2 /* Pods_FolledoInstagramClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AA835DB9FD7F4F621A06D3 /* Pods_FolledoInstagramClone.framework */; };
 		CD064C8C20DC410A00F24F5E /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD064C8B20DC410A00F24F5E /* FeedTableViewController.swift */; };
+		CD064C8E20DC43D800F24F5E /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD064C8D20DC43D800F24F5E /* FeedTableViewCell.swift */; };
 		CD16636220C5F4F800284A43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16636120C5F4F800284A43 /* AppDelegate.swift */; };
 		CD16636420C5F4F800284A43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16636320C5F4F800284A43 /* ViewController.swift */; };
 		CD16636720C5F4F800284A43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD16636520C5F4F800284A43 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		87AA835DB9FD7F4F621A06D3 /* Pods_FolledoInstagramClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FolledoInstagramClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B55572D7DFCDC26CE13837D4 /* Pods-FolledoInstagramClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolledoInstagramClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-FolledoInstagramClone/Pods-FolledoInstagramClone.release.xcconfig"; sourceTree = "<group>"; };
 		CD064C8B20DC410A00F24F5E /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		CD064C8D20DC43D800F24F5E /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		CD16635E20C5F4F800284A43 /* FolledoInstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolledoInstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD16636120C5F4F800284A43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD16636320C5F4F800284A43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,9 +129,10 @@
 				CD16636320C5F4F800284A43 /* ViewController.swift */,
 				CD16636520C5F4F800284A43 /* Main.storyboard */,
 				CD91F5A420D07B6700878DA6 /* LogInViewController.swift */,
-				CD064C8B20DC410A00F24F5E /* FeedTableViewController.swift */,
 				CDFF837320D1D4850017D694 /* UserTableViewController.swift */,
 				CDFEDECC20DC1EA0001F8361 /* PostViewController.swift */,
+				CD064C8B20DC410A00F24F5E /* FeedTableViewController.swift */,
+				CD064C8D20DC43D800F24F5E /* FeedTableViewCell.swift */,
 				CD16636B20C5F4FB00284A43 /* Assets.xcassets */,
 				CD16636D20C5F4FB00284A43 /* LaunchScreen.storyboard */,
 				CD16637020C5F4FB00284A43 /* Info.plist */,
@@ -339,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDFEDECD20DC1EA0001F8361 /* PostViewController.swift in Sources */,
+				CD064C8E20DC43D800F24F5E /* FeedTableViewCell.swift in Sources */,
 				CDFF837420D1D4850017D694 /* UserTableViewController.swift in Sources */,
 				CD91F5A520D07B6700878DA6 /* LogInViewController.swift in Sources */,
 				CD064C8C20DC410A00F24F5E /* FeedTableViewController.swift in Sources */,
